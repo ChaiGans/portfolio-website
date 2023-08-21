@@ -27,7 +27,7 @@ const Skills = (props) => {
       },
     ];
     return (
-      <div className="min-w-screen bg-amber-900 py-8 flex flex-col space-y-4 items-center">
+      <div className="min-w-screen bg-amber-900 py-8 flex flex-col space-y-4 items-center" id="skills">
         <h1 className="text-white text-2xl text-center font-manropemed">
           Skills
         </h1>

@@ -30,7 +30,7 @@ const Projects = () => {
     ];
 
     return (
-    <div className="min-w-screen flex items-center justify-center flex-col space-y-4 py-9">
+    <div className="min-w-screen flex items-center justify-center flex-col space-y-4 py-9" id="projects">
       <h1 className="text-amber-900 text-2xl text-center font-manropemed">
         Projects
       </h1>

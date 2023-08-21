@@ -22,7 +22,7 @@ const Experiences = () => {
   ];
 
   return (
-    <div className="min-w-screen bg-amber-900 py-8 flex flex-col items-center space-y-4">
+    <div  id="experiences" className="min-w-screen bg-amber-900 py-8 flex flex-col items-center space-y-4">
       <h1 className="text-white text-2xl text-center font-manropemed mb-2">
         Experiences
       </h1>

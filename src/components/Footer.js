@@ -9,7 +9,7 @@ import {
 //  TODO : INTEGRATE SUBMITTING FORM TO EMAIL AND POPUP NOTIFICATIONS
 const Footer = () => {
   return (
-    <div className="bg-gray-800 py-4">
+    <div className="bg-gray-800 py-4" id="contact">
       <div className="flex flex-row space-x-4 justify-center">
         <a
           href="https://github.com/ChaiGans"
