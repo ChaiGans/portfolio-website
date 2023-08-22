@@ -1,8 +1,18 @@
 
 
 const About = () => {
+    const scrollToSection = (sectionId) => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+
     return (
-      <div className="flex justify-center flex-col items-center min-h-screen py-6 "  id="about">
+      <div
+        className="flex justify-center flex-col items-center min-h-screen py-6 pt-[110px]"
+        id="about"
+      >
         <h1 className="text-amber-900 text-2xl text-center font-manropemed mb-2">
           About Me
         </h1>
@@ -23,7 +33,10 @@ const About = () => {
               Download CV
             </button>
           </a>
-          <button className="border-solid border-2 border-gray-800 bg-amber-900 text-white hover:scale-110 rounded-lg px-3 py-2 duration-300 transition-all md:text-xl md:px-6">
+          <button
+            onClick={() => scrollToSection("contact")}
+            className="border-2 border-solid border-gray-800 bg-amber-900 text-white hover:scale-110 rounded-lg px-3 py-2 duration-300 transition-all md:text-xl md:px-6 inline-block"
+          >
             Stalk me
           </button>
         </div>

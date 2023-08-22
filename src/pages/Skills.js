@@ -1,6 +1,6 @@
 import SkillsCard from "../components/Skillscard";
 
-const Skills = (props) => {
+const Skills = () => {
     const dummy = [
       {
         role: "Frontend Development",
