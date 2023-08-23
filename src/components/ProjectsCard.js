@@ -28,7 +28,7 @@ const ProjectsCard = (props) => {
             </button>
           </a>
           <a href={props.github} target="_blank" rel="noopener noreferrer">
-            <button className="hover:scale-110 transition-all duration-200 hover:bg-amber-900 hover:text-white flex flex-row justify-center items-center px-2 py-2 border-2 rounded-lg border-black h-[10%]">
+            <button className="md:px-5 md:text-lg hover:scale-110 transition-all duration-200 hover:bg-amber-900 hover:text-white flex flex-row justify-center items-center px-2 py-2 border-2 rounded-lg border-black h-[10%]">
               <AiFillGithub className="mr-2"></AiFillGithub>
               Github
             </button>
